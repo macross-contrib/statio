@@ -1,8 +1,8 @@
 package statio_test
 
 import (
+	"github.com/insionng/macross"
 	"github.com/macross-contrib/statio"
-	"macross"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package statio
 
 import (
-	"macross"
+	"github.com/insionng/macross"
 	"net/http"
 	"os"
 	"path"
