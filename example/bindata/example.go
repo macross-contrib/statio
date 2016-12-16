@@ -44,8 +44,8 @@ func main() {
 
 	m.Use(statio.Serve("/static", BinaryFileSystem("data")))
 	m.Get("/ping", func(self *macross.Context) error {
-		return self.String(200, "pong")
+		return self.String("pong")
 	})
 	// Listen and Server in 0.0.0.0:8080
-	m.Run(":8080")
+	m.Listen(":8080")
 }

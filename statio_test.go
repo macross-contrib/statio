@@ -9,5 +9,5 @@ import (
 func TestStatic(t *testing.T) {
 	m := macross.New()
 	m.Use(statio.Serve("/", statio.LocalFile("public", false)))
-	go m.Run(":8888")
+	go m.Listen(":8888")
 }
