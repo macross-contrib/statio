@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/insionng/macross"
 	"github.com/macross-contrib/statio"
-	"macross"
 )
 
 func main() {

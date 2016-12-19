@@ -2,8 +2,8 @@ package main
 
 import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
+	"github.com/insionng/macross"
 	"github.com/macross-contrib/statio"
-	"macross"
 	"net/http"
 	"strings"
 )
